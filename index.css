@@ -1,0 +1,55 @@
+.homelnk,.serviceslnk,.appointmentlnk {font-size:50px;text-align:center;font-family: Helvetica, Arial,Georgia;}
+
+a:link {
+  text-decoration: none;
+  color:rgb(255, 204, 153)
+}
+
+a:visited {
+  color:rgb(255, 204, 153);
+}
+
+a:hover {
+  text-decoration: underline;
+  color:red;
+}
+
+.homelnk {margin-top:180px}
+
+#header {background-color:rgb(221,221,188);
+  background-image: url("images/logo.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 10 -70;
+  text-align:center
+}
+
+#menu {background-color:rgb(255, 255, 230);
+    border-right:solid;
+    background-image:url("images/barbershoppole.png"),url("images/barbershoppole.png");
+    background-repeat:no-repeat;
+    background-position:110 -10,110 330;
+    background-size: 50%,50%;
+
+}
+
+#footer {background-color:black}
+
+#content {background-color:rgb(255, 255, 230);
+          background-image: url("images/haircut1.webp"),url("images/haircut2.jpg");
+          background-repeat:no-repeat,no-repeat;
+          background-size: 275px,275px;
+          background-position:20 160, 1170 120;
+          font-family:Tahoma;}
+
+#textHead {padding-top:60px;font-family:Helvetica;font-size:40px; padding-left:360px}
+
+#underHeadText {padding-left: 30px;font-family: Arial;padding-left:360px}
+
+.contactOne,.companyInfo, .contactTwo {color:white;
+  text-align:center;
+  padding-left: 390px;
+  padding-top:20px;
+}
+
+.textInfo {padding-top:75px;padding-left:320px;padding-right:320px;font-size:35px}

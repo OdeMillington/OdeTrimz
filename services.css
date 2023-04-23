@@ -1,0 +1,70 @@
+.homelnk,.serviceslnk,.appointmentlnk {font-size:50px;text-align:center;font-family: Helvetica, Arial,Georgia;}
+
+a:link {
+  text-decoration: none;
+  color:rgb(255, 204, 153)
+}
+
+a:visited {
+  color:rgb(255, 204, 153);
+}
+
+a:hover {
+  text-decoration: underline;
+  color:red;
+}
+
+
+.homelnk {margin-top:180px}
+
+#header {background-color:rgb(221,221,188);
+  background-image: url("images/logo.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 10 -70;
+  text-align:center
+}
+
+#menu {background-color:rgb(255, 255, 230);
+    border-right:solid;
+    background-image:url("images/barbershoppole.png"),url("images/barbershoppole.png");
+    background-repeat:no-repeat;
+    background-position:110 -10,110 330;
+    background-size: 50%,50%;
+
+}
+
+#footer {background-color:black}
+
+#content {background-color:rgb(255, 255, 230);
+          font-family:Tahoma;
+          background-image:url("images/border.webp"),url("images/border.webp");
+          background-repeat: no-repeat;
+          background-position: 450 -20, 450 500
+        }
+
+#textHead {padding-top:60px;font-family:Helvetica;font-size:40px; padding-left:360px}
+
+#underHeadText {padding-left: 30px;font-family: Arial;padding-left:360px}
+
+
+.contactOne,.companyInfo, .contactTwo {color:white;
+  text-align:center;
+  padding-left: 390px;
+  padding-top:20px;
+}
+
+tr,th {
+  border:solid;
+  border-collapse:separate;
+  border-radius: 20px;
+}
+
+tr:hover {
+  background-color:red;
+}
+
+.serviceTable {margin:100px 0px 0px 485px;
+  font-size:35px;
+  font-family: "palatino", serif;
+}

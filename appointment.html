@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="appointment.css"/>
+    <style>
+      *{margin:0}
+      #container {margin: 0;height:100%;width:100%}
+      #header {height:20%;width:100%;}
+      #menu {height:70%;width:23%;float:left;}
+      #content {height:70%;width:76.84%;float:left;}
+      #footer {height:15%;width:100%;clear:both}
+    </style>
+    <meta charset="utf-8">
+    <title>Ode Trimz - BOOK NOW</title>
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="header">
+        <div id="textHead"> <h1>ODE TRIMZ</h1> </div>
+        <div id="underHeadText"> <h5>Haircuts, Beards, Rounds Ups and More...</h5> </div>
+      </div>
+
+      <div id="menu">
+        <h3 class="homelnk"><a href="index.html">Home</a></h3>
+        <h3 class="serviceslnk"><a href="services.html">Services</a></h3>
+        <h3 class="appointmentlnk"><a href="appointment.html">BOOK NOW!</a></h3>
+      </div>
+
+      <div id="content">
+
+        <form name="input" method="post" action="mailto:bookings@odetrimz.com" enctype="text/plain">
+          <p>Name</p>
+          <input type="text" name="firstName" required/> <input type="text" name="lastName" required/>
+          <br/> <br/>
+
+          <p>Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Phone</p>
+          <input type="email" name="email"> <input type="text" name="phone" value="">
+          <br/> <br/>
+
+          <p>Select A Service</p>
+          <select name="service" required>
+            <option value="kidsFade">Kids' Fade</option>
+            <option value="roundUp">Round Up</option>
+            <option value="regular">Regular Haircut</option>
+            <option value="regular-Beard">Beard + Haircut</option>
+            <option value="beard">Beard</option>
+            <option value="eyebrows">Eyebrows</option>
+            <option value="schoolBoy">School Boy</option>
+          </select>
+
+          <br/> <br/>
+          <p>Select Barber</p>
+          <br/>
+          <!-- Name is barber so user can't select multiple barbers -->
+          <p> <input type="radio" name="barber"> James Trafford </p>
+          <p> <input type="radio" name="barber"> Mark Tartowski </p>
+          <p> <input type="radio" name="barber"> Hillary Mont </p>
+          <p> <input type="radio" name="barber"> Jamal Humphrey </p>
+
+          <br/>
+          <p>Appointment Date</p>
+          <br/>
+
+          <input type="date" name="date" required>
+          <br/> <br/>
+
+          <p>Describe what you want! <span style="font-size:15px">(Additional Designs - $5.00)</span></p>
+          <textarea name="style" rows="4" cols="80"></textarea>
+
+          <br/> <br/>
+
+          <input type="submit" value="BOOK">
+          <input type="reset" value="CLEAR">
+
+         </form>
+      </div>
+
+      <div id="footer">
+        <p class="contactOne">Call: +1 (246) 529-3884</p>
+        <p class="contactTwo">Email: odetrimz@gmail.com</p>
+        <p class="companyInfo">Ode Trimz &#169;</p>
+      </div>
+
+    </div>
+  </body>
+</html>
